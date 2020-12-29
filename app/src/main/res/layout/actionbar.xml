@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    android:elevation="@dimen/elevacion_actinbar"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    <ImageView
+    android:id="@+id/huella"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:background="@drawable/huella"
+    />
+
+    <ImageButton
+        android:id="@+id/btnEstrella"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/estrella"
+        android:layout_marginLeft="350dp"
+        android:onClick="irSegundaActividad"
+        />
+
+</androidx.appcompat.widget.Toolbar>
